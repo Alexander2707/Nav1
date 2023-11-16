@@ -99,6 +99,7 @@ main{
         margin-left: 20px;
         display: inline-block;
         margin-top: 10px;
+        transition:0,4s;
         }
     .card a{
         text-decoration: none;
@@ -180,3 +181,6 @@ main{
         background: #999;
         transform: rotate(-45deg);
     }
+.card:hover {
+        box-shadow: 0 0 10px #222222;
+      }
